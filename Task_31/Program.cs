@@ -42,7 +42,7 @@ int[] FillArray(int length)
     int[] result = new int[length];
     for (int i = 0; i < result.Length; i++)
     {
-        result[i] = new Random().Next(-50, 51);
+        result[i] = new Random().Next(-9, 9);
     }
     return result;
 }
