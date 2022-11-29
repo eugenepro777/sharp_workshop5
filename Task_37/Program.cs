@@ -15,11 +15,11 @@ int[] MultiplyPair(int[] array)
     int newLength = 0;
     if(array.Length % 2 == 0)  // условие когда в массиве четное кол-во элементов
     {
-        newLength = array.Length / 2; // присваиваем новой длине массива четное значение
+        newLength = array.Length / 2; // присваиваем новому массиву длину = четному числу
     }
     else
     {
-        newLength = array.Length / 2 + 1;  // присваиваем новой длине массива нечетное значение
+        newLength = array.Length / 2 + 1;  // присваиваем новому массиву длину = нечетному числу
     }
     int[] result = new int[newLength]; //создаём массив с новой длиной
 
